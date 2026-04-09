@@ -20,8 +20,8 @@
 
 // audio information config
 // 16000 Hz, stereo, 32-bit — must match the sender node.
-AudioInfo StreamInfo(16000, 2, 32);
-
+AudioInfo StreamInfo(44100, 2, 32);
+    
 // input to stream copy function
 // this represents the signal coming from microphone
 I2SStream i2sStream;
@@ -220,12 +220,10 @@ void setup() {
 void loop() {
     // sd cycle
     Serial.println("Starting SD write cycle");
-    delay(1000);
     digitalWrite(LED_BUILTIN, HIGH);
-    write_sd(20000);
-    // csv cycle
-    Serial.println("Starting CSV write cycle");
-    delay(1000);
+    write_sd(300000); // 5 minutes
+    // sleep cycle
+    Serial.println("Starting Sleep cycle");
     digitalWrite(LED_BUILTIN, LOW);
-    write_csv(20000);
+    delay(3300000);  // 55 minutes
 }

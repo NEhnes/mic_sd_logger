@@ -8,12 +8,12 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/include",
-                "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/src",
+                "/home/nehnes/pio_ws/mic_sd_logger/include",
+                "/home/nehnes/pio_ws/mic_sd_logger/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
-                "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/.pio/libdeps/esp32/audio-tools/src",
+                "/home/nehnes/pio_ws/mic_sd_logger/.pio/libdeps/esp32/audio-tools/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/Network/src",
@@ -358,12 +358,12 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/include",
-                    "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/src",
+                    "/home/nehnes/pio_ws/mic_sd_logger/include",
+                    "/home/nehnes/pio_ws/mic_sd_logger/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
-                    "/home/nehnes/pio_ws/i2s-to-serial/sd_logger_node/.pio/libdeps/esp32/audio-tools/src",
+                    "/home/nehnes/pio_ws/mic_sd_logger/.pio/libdeps/esp32/audio-tools/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/nehnes/.platformio/packages/framework-arduinoespressif32/libraries/Network/src",
