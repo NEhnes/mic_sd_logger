@@ -61,7 +61,7 @@ pio --version  # verify installation
 
 **From GitHub:**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/NEhnes/mic_sd_logger
 cd sd_logger_node
 ```
 
